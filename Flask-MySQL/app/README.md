@@ -5,7 +5,9 @@ Test flask services using the following RestFul API
 Create Database
 ----------------
 
-	http://localhost:8081/createdb?hostname=mysqlhost
+After starting docker-compose up, you have to assgin the hostname of mysql-server as assgined in docker-compose.yml
+
+	http://localhost:8081/createdb?hostname=mysqlserver
 
 Create and Initiate Users Table
 --------------------------------
