@@ -1,0 +1,11 @@
+boto 
+cheetah 
+docutils==0.8 
+--allow-external elementtree 
+pycrypto 
+roman 
+simplejson 
+sqlalchemy 
+wchartype 
+--allow-external pyxml 
+--allow-external mysqldb
